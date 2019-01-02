@@ -12,17 +12,66 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
         <activity android:name=".adoptedanimal.AdoptedAnimalActivity">
 
         </activity>
         <activity android:name=".modifyinfoanimal.ModifyInfoAnimalActivity">
+
+        </activity>
+        <activity android:name=".adopt.AdoptActivity"/>
+        <activity android:name=".apply.online.ApplyOnlineFirstActivity">
+
+        </activity>
+        <activity android:name=".apply.online.ApplyOnlineSecondActivity">
+
+        </activity>
+        <activity android:name=".apply.online.ApplyOnlineMainActivity">
+
+        </activity>
+        <activity android:name=".apply.online.ApplyOnlineFourthActivity"></activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.ApplyOnlineThirdSelectAdoptActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.ApplyOnlineThirdSelectTempActivity"></activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.ApplyOnlineThirdTempOrAdoptActivity"></activity>
+        <activity android:name=".communitydetail.CommunityDetailActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.communitywrite.CommunityWriteActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.contents.activity.ContentsEduDetailActivity">
+
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.contents.activity.ContentsSenseDetailActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.dogdetail.DogDetailActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.filter.FilterActivity">
+
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.urgent.Activity.UrgentAnimalActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.home.activity.HomeActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.mypage.MypageActivity">
+
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.mypage.MypageSettingActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.scrap.ScrapActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.search.SearchActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.searchresult.SearchResultActivity"></activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.signup.SignIdSettingActivity">
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.signup.SignInfoWriteActivity">
+        </activity>
     </application>
+
 
 </manifest>
