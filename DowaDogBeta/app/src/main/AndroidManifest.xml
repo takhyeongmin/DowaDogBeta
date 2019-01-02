@@ -50,17 +50,16 @@
         <activity android:name="com.takhyungmin.dowadogbeta.urgent.Activity.UrgentAnimalActivity">
         </activity>
         <activity android:name="com.takhyungmin.dowadogbeta.home.activity.HomeActivity">
-
+        </activity>
+        <activity android:name="com.takhyungmin.dowadogbeta.mypage.MypageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.takhyungmin.dowadogbeta.mypage.MypageActivity">
-
-        </activity>
         <activity android:name="com.takhyungmin.dowadogbeta.mypage.MypageSettingActivity">
+
         </activity>
         <activity android:name="com.takhyungmin.dowadogbeta.scrap.ScrapActivity">
         </activity>

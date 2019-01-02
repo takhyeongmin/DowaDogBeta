@@ -13,7 +13,8 @@
         android:layout_height="48dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:elevation="1dp">
+        android:elevation="1dp"
+        android:background="#FFFFFF">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -100,7 +101,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_marginRight="18dp"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="8dp"
+            />
 
     </RelativeLayout>
 
@@ -242,7 +244,7 @@
     <RelativeLayout
         android:id="@+id/rl_mailbox_mypage_act"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="180dp"
         android:layout_marginTop="26dp"
         android:layout_below="@+id/ll_ani_scrap_box_mypage_act"
         android:background="#fafafa">
@@ -250,39 +252,88 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginVertical="12dp"
-            android:paddingLeft="16dp"
-            android:background="#ffffff"
-            android:elevation="6dp"
-            android:orientation="vertical">
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="16dp">
+            
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/mypage_activity_letter_box">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textColor="#434343"
-                android:fontFamily="@font/nanum_light"
-                android:layout_marginTop="18dp"
-                android:text="기다릴개에서"
-                />
+                <TextView
+                    android:id="@+id/tv_gidalilga_mypage_act"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기다릴개에서"
+                    android:textSize="15sp"
+                    android:textColor="#434343"
+                    android:fontFamily="@font/nanum_light"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="11dp"
+                    />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textColor="#434343"
-                android:fontFamily="@font/nanum_bold"
-                android:layout_marginTop="8dp"
-                android:text="보내는 따뜻한편지"
-                />
+                <TextView
+                    android:id="@+id/tv_letter_gidalilga_mypage_act"
+                    android:layout_below="@+id/tv_gidalilga_mypage_act"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="보내는 따뜻한 편지"
+                    android:textSize="15sp"
+                    android:textColor="#434343"
+                    android:fontFamily="@font/nanum_bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="11dp"
+                    />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mypage_new_icon"
+                    android:layout_below="@+id/tv_letter_gidalilga_mypage_act"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="6dp"/>
 
-        </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/mypage_activity_letter_box"
+                android:layout_marginLeft="6dp">
+
+                <TextView
+                    android:id="@+id/tv_new_family_mypage_act"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="새로운 가족이 된"
+                    android:textSize="15sp"
+                    android:textColor="#434343"
+                    android:fontFamily="@font/nanum_light"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="11dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_my_kid_mypage_act"
+                    android:layout_below="@+id/tv_new_family_mypage_act"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="우리 아이"
+                    android:textSize="15sp"
+                    android:textColor="#434343"
+                    android:fontFamily="@font/nanum_bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="11dp"
+                    />
+
+            </RelativeLayout>
+
+            </LinearLayout>
 
     </RelativeLayout>
 
